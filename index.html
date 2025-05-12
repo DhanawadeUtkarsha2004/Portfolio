@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utkarsha Dhanawade</title>
+    <link rel="shortcut icon" href="./Img/profile-pic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" style="color: white;">Utkarsha Dhanawade</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Utkarsha Dhanawade</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Img/profile-pic.jpg" alt="UVD profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Utkarsha Dhanawade</h1>
+            <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800" class="typewriter">I'm  <span
+                    class="typewriter-text"></span><label for="">|</label></div>
+            <p class="section__text__p2">A passionate Engineer who transforms ideas into digital
+                experiences.</p>
+            <div class="btn-container">
+
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Img/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://linkedin.com/'" />
+                <img src="./Img/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+
+            <div class="about-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <img src="./Img/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3><br>
+                        <p>SSC , S. V. V. Arunodaya Dombivli (2019 ,80.80%) </p>
+                        <p>HSC , S.V.Joshi High School & Jr. College Dombivli (2021 , 82.50%)</p>
+                        <p>B.E Information Technology , SSJCOE Dombivli (2025 , 7.5 CGPA)</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Img/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3><br>
+                        <p>Internship </p>
+                        <p> Python , Oasis Infobyte </p>
+                        <p>Trainer , Syscom Computer Education </p>
+                        <p> Web Devlopment , TechnoHack EduTech </p>
+                        <p>Research Associate , Trinity ENC </p><br>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Img/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Certification</h3><br>
+                        <p>1.The Complete Python Bootcamp From Zero to Hero in Python , Udemy</p>
+                        <p>2.Project Management Foundations , LinkedIn</p>
+                        <p>3.Machine Learning , Simple learn SkillUp</p><br>
+                    </div>
+                    <!-- <div class="details-container">
+                        <img src="./Img/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Achievements</h3><br>
+                        <p>Invited to the</p>
+                        <p>“Today’s AI” Conference</p>
+                        <p>Held at Taj Palace</p>
+                        <p>on 6-12-2024, Mumbai</p>
+                        <p> — networked with top AI professionals and gained insights into current trends.</p>
+                    </div> -->
+                </div>
+                <div class="text-container">
+                    <p>Am Utkarsha Dhanawade, B.E. student at Shivajirao S. Jondhle College Of Engineering
+                        Dombivli.</p><br>
+                    <p>Specialization at Information Tecnology</p><br>
+                    <p>I am highly disciplined and adaptable.</p><br>
+                    <p>And enjoy playing kabaddi and table tennis.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="section-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h3>Technologies</h3><br>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Python, Java, C</li>
+                        <li>MySQL, MongoDB</li>
+                        <li>Machine Learning, OpenCV</li>
+                        <li>Django, Flask, PHP</li>
+                        <li>React JS, Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="details-container">
+                    <h3>Soft Skills</h3><br>
+                    <ul>
+                        <li>Teamwork & Collaboration</li>
+                        <li>Adaptability</li>
+                        <li>Problem Solving</li>
+                        <li>Leadership</li>
+                        <li>Time Management</li>
+                        <li>Effective Communication</li>
+                    </ul>
+                </div>
+                <div class="details-container">
+                    <h3>Contribution</h3><br>
+
+                    <p>Actively contributed to multiple GitHub projects, collaborating with a global developer community
+                        to solve
+                        real-world challenges and enhance functionality. Led open-source projects, showcasing leadership
+                        in
+                        collaborative development and project management</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <h1 class="title">Resume</h1>
+        <div class="resume-container" style="text-align: center; padding: 2rem;">
+            <p>You can view and download my resume here :</p> <br>
+            <button class="btn btn-color-1"
+                onclick="window.open('https://drive.google.com/file/d/1IXXc86SR_I_hDx0EUrnVO3AXng410gc0/view?usp=drive_link', '_blank')">
+                View Resume
+            </button>
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Quiz Management</h2><br>
+                    <h4>Java , MySQL</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Voice Calculator</h2><br>
+                    <h4>Python</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Object Detection</h2><br>
+                    <h4>Python , ML</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Similar Image Finder</h2><br>
+                    <h4>HTML , CSS , JS , Python , ML</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Employees Payroll System</h2><br>
+                    <h4>Python</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Click And Cart</h2><br>
+                    <h4>HTML , CSS , MYSQL , JS , Python , ML</h4><br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Img/email.jpg" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com" target="_blank">utkarshadhanawade249@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Img/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com" target="_blank">Utkarsha Vijay Dhanawade</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
